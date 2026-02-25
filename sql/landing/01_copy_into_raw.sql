@@ -1,4 +1,4 @@
--- 1) Credential using a SAS token (do NOT include the leading ?)
+-- 1) Credential using a SAS token (do NOT include the leading ?) 
 IF NOT EXISTS (SELECT 1 FROM sys.database_scoped_credentials WHERE name = 'blob_sas_credential')
 BEGIN
   CREATE DATABASE SCOPED CREDENTIAL blob_sas_credential
