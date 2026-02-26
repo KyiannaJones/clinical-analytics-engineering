@@ -3,7 +3,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.database_scoped_credentials WHERE name = 'blob_
 BEGIN
   CREATE DATABASE SCOPED CREDENTIAL blob_sas_credential
   WITH IDENTITY = 'SHARED ACCESS SIGNATURE',
-  SECRET = 'sv=2024-11-04&ss=b&srt=o&sp=rltfx&se=2026-02-28T07:22:07Z&st=2026-02-21T23:07:07Z&spr=https&sig=NVYC1pv5t%2FAkq1YGeDVt8MbqtrPJEBoMFUfycBcGUxk%3D';
+  SECRET = '***REDACTED***';
 END
 GO
 
