@@ -1,4 +1,4 @@
-Clinical Admissions Analytics Engineering Project
+#Clinical Admissions Analytics Engineering Project
 
 Overview
 This project demonstrates an end-to-end analytics engineering workflow using a simulated hospital admissions dataset. The goal was to move beyond simple dashboarding and build a structured, production-style data model using layered architecture and dimensional modeling principles.
